@@ -1,0 +1,37 @@
+conandeps = {
+
+
+        "conandeps" : {
+            "CPPPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/include'],
+            "LIBPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/lib'],
+            "BINPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/bin'],
+            "LIBS"        : ['Catch2Main', 'Catch2', 'm'],
+            "FRAMEWORKS"  : [],
+            "FRAMEWORKPATH" : [],
+            "CPPDEFINES"  : [],
+            "CXXFLAGS"    : [],
+            "CCFLAGS"     : [],
+            "SHLINKFLAGS" : [],
+            "LINKFLAGS"   : [],
+        },
+        
+        
+
+        "catch2" : {
+            "CPPPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/include'],
+            "LIBPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/lib'],
+            "BINPATH"     : ['/root/.conan2/p/b/catchcf77f42d90884/p/bin'],
+            "LIBS"        : [],
+            "FRAMEWORKS"  : [],
+            "FRAMEWORKPATH" : [],
+            "CPPDEFINES"  : [],
+            "CXXFLAGS"    : [],
+            "CCFLAGS"     : [],
+            "SHLINKFLAGS" : [],
+            "LINKFLAGS"   : [],
+        },
+        "catch2_version" : "3.13.0",
+        
+}
+
+Return('conandeps')
