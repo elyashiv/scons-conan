@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# conan dir
+conan/
+
+# build artifacts
+*.obj
+*.exe
+compile_commands.json
+.cache/
+
+# scons
+.sconsign.dblite
